@@ -28,7 +28,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8554429290:AAE91vK9OMbS4ORzi4kP7BOVpDXHhc-dpxA")
-CHAT_ID = os.getenv("CHAT_ID", "1365292498")
+CHAT_ID = os.getenv("CHAT_ID","-1003263432307")
 
 IMG_SIZE = 640
 HALT_FRAMES = 100
@@ -1079,4 +1079,3 @@ elif page == "⚙️ Admin Panel":
 st.sidebar.markdown("---")
 st.sidebar.markdown("Beach Guard")
 st.sidebar.markdown("SMART SURVEILLANCE FOR BEACH SAFETY AND EMERGENCY RESPONSE")
-
